@@ -83,9 +83,9 @@ WSGI_APPLICATION = 'registration_pj.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'registration_pj_db', # ur database name in psql BD
-        'USER': 'ur user for psql',
-        'PASSWORD': 'ur password u need added in env file',
+        'NAME': 'registration_pj_db',
+        'USER': 'kava_di',
+        'PASSWORD': '45683968rs',
         'HOST': 'localhost',
         'PORT': 5432
     }
